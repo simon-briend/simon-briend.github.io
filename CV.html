@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .pdf-container {
+      display: flex;
+      justify-content: center;
+      margin: 2rem;
+    }
+    iframe {
+      width: 80%;
+      height: 90vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My CV</h1>
+  </header>
+  <div class="pdf-container">
+    <iframe src="CV_Briend.pdf" type="application/pdf">
+      <p>Your browser does not support iframes. You can <a href="your-cv.pdf">download the CV here</a>.</p>
+    </iframe>
+  </div>
+</body>
+</html>
